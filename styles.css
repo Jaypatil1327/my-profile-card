@@ -1,0 +1,143 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1557682250-33bd709cbe85?q=80&w=2029&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+#main-container{
+    position: relative;
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+
+    /*Main container shadow*/
+    box-shadow: 2px 2px 25px black;
+
+    /*Card-position*/
+    top: 100px;
+    left: 550px;
+    z-index: 0;
+
+}
+#purple-container{
+    position: absolute;
+    height: 150px;
+    width: 400px;
+    background-color: #9A3BFF;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+    z-index: 1;
+}
+
+#pfp-img{
+    position: absolute;
+    height: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #9A3BFF;
+    z-index: 2;
+    /*Positioning wrt contianer*/
+    top: 40px;
+    left: 120px;
+    
+
+}
+#know-btn{
+    position: absolute;
+    top: 400px;
+    left: 145px;
+    
+    border: none;
+    border-radius: 25px;
+    background-color: #9A3BFF ;
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+
+    cursor: pointer;
+
+    z-index: 3;
+
+    /*Transition*/
+    transition-property: transform;
+    transition-duration: 0.2s;
+}
+
+#know-btn:hover{
+    transform: scale(1.08);
+}
+
+#name{
+    z-index: 4;
+    color: black;
+    position: absolute;
+    top: 190px;
+    left: 155px;
+    font-size: 15px;
+
+    font-family: "Poppins", sans-serif;
+}
+
+#intro{
+    z-index: 5;
+    color: black ;
+    position: absolute;
+    top: 215px;
+    left: 105px;
+    font-size: 15px;
+
+    font-family: "Poppins", sans-serif;
+
+}
+
+
+#yt-img, #dc-img, #ig-img, #tw-img, #li-img{
+    position: absolute;
+    top: 340px;
+    width: 40px;
+    z-index: 6;
+    cursor: pointer;
+
+    /*Transitions*/
+    transition-duration: 0.3s;
+    transition-property: transform;
+    
+}
+
+#yt-img:hover, #dc-img:hover, #ig-img:hover, #tw-img:hover, #li-img:hover{
+    transform: scale(1.1);
+}
+
+#yt-img{
+    left: 80px
+}
+#dc-img{
+    left: 130px;
+}
+#ig-img{
+    left: 180px;
+    width: 45px;
+}
+#tw-img{
+    left: 230px;
+}
+#li-img{
+    left: 280px;
+}
+
+#connect-text{
+    position: absolute;
+    color: black;
+    top: 290px;
+    left: 115px;
+    font-size: 15px;
+    z-index: 7;
+
+
+    font-family: "Poppins", sans-serif;
+    color: black;
+}
+
+/*#840FFF*/
